@@ -1,0 +1,33 @@
+Root level exception in OnGUI(): System.TypeLoadException: Could not resolve type with token 01000045 (from typeref, class/assembly WhatTheHack.Extensions, WhatTheHack, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null)
+
+  at (wrapper dynamic-method) RimWorld.FloatMenuMakerMap.DMD<DMD<AddDraftedOrders_Patch4>?-1180373632::AddDraftedOrders_Patch4>(UnityEngine.Vector3,Verse.Pawn,System.Collections.Generic.List`1<Verse.FloatMenuOption>)
+
+  at (wrapper dynamic-method) RimWorld.FloatMenuMakerMap.DMD<DMD<ChoicesAtFor_Patch4>?-1171512320::ChoicesAtFor_Patch4>(UnityEngine.Vector3,Verse.Pawn)
+
+  at AchtungMod.MultiActions.AddColonist (AchtungMod.Colonist colonist) [0x00077] in <998a529e2cae4e2c921a73d037fe26a5>:0 
+
+  at AchtungMod.MultiActions.<.ctor>b__3_0 (AchtungMod.Colonist colonist) [0x00000] in <998a529e2cae4e2c921a73d037fe26a5>:0 
+
+  at AchtungMod.Tools.Do[T] (System.Collections.Generic.IEnumerable`1[T] sequence, System.Action`1[T] action) [0x00014] in <998a529e2cae4e2c921a73d037fe26a5>:0 
+
+  at AchtungMod.MultiActions..ctor (System.Collections.Generic.IEnumerable`1[T] colonists, UnityEngine.Vector3 clickPos) [0x00018] in <998a529e2cae4e2c921a73d037fe26a5>:0 
+
+  at AchtungMod.Controller.MouseDown (UnityEngine.Vector3 pos) [0x00076] in <998a529e2cae4e2c921a73d037fe26a5>:0 
+
+  at AchtungMod.Controller.HandleEvents () [0x0002f] in <998a529e2cae4e2c921a73d037fe26a5>:0 
+
+  at AchtungMod.Selector_HandleMapClicks_Patch.Prefix () [0x00005] in <998a529e2cae4e2c921a73d037fe26a5>:0 
+
+  at (wrapper dynamic-method) RimWorld.Selector.DMD<DMD<HandleMapClicks_Patch2>?982361216::HandleMapClicks_Patch2>(RimWorld.Selector)
+
+  at RimWorld.Selector.SelectorOnGUI () [0x00000] in <36108d57f84d49cabdae818c2a53fc38>:0 
+
+  at RimWorld.MapInterface.HandleLowPriorityInput () [0x0000f] in <36108d57f84d49cabdae818c2a53fc38>:0 
+
+  at (wrapper dynamic-method) RimWorld.UIRoot_Play.DMD<DMD<UIRootOnGUI_Patch1>?-1820897280::UIRootOnGUI_Patch1>(RimWorld.UIRoot_Play)
+
+  at Verse.Root.OnGUI () [0x0003d] in <36108d57f84d49cabdae818c2a53fc38>:0 
+
+Verse.Log:Error(String, Boolean)
+
+Verse.Root:OnGUI()
